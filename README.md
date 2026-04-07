@@ -21,8 +21,6 @@ funcoes/
 template/
   nome-da-funcao/
     index.js
-scripts/
-  validar-estrutura.js
 ATIVIDADES.md
 CONVENCAO.md
 ```
@@ -37,20 +35,14 @@ git checkout -b feat/seu-nome-nome-da-funcao
 
 2. Criar a pasta da função em `funcoes/` seguindo a convenção.
 3. Criar o arquivo `index.js` com a implementação.
-4. Rodar validação local:
-
-```bash
-npm run validar
-```
-
-5. Fazer commit:
+4. Fazer commit:
 
 ```bash
 git add .
 git commit -m "feat(nome-da-funcao): implementa funcao"
 ```
 
-6. Publicar a branch e abrir PR.
+5. Publicar a branch e abrir PR.
 
 ## Instalação e execução
 
@@ -58,7 +50,6 @@ Este projeto usa apenas Node.js (sem dependências externas).
 
 ```bash
 npm install
-npm run validar
 ```
 
 ## Critérios de avaliação
